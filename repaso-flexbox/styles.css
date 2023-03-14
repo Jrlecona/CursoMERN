@@ -1,0 +1,50 @@
+body {
+    background: antiquewhite;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: 50% 20% auto;
+    grid-template-rows: 100px auto;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.caja {
+    border: 4px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 120px;
+    text-align: center;
+}
+
+.c1 {
+    background: lightblue;
+}
+
+.c2 {
+    background: lightcoral;
+}
+
+.c3 {
+    background: lightgreen;
+}
